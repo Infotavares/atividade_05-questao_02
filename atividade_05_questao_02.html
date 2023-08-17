@@ -8,38 +8,8 @@
     <title>Cadastrar Alunos</title>
 </head>
 <body>
-    <!--
-        <table>
-    <thead>
-        <tr>
-            <th>Fabricante</th>
-            <th>Console</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Microsft</td>
-            <td>Xbox Series X</td>
-        </tr>
-        <tr>
-            <td>Sony</td>
-            <td>PlayStation 5</td>
-        </tr>
-        <tr>
-            <td>Nintendo</td>
-            <td>Switch OLED</td>
-        </tr>
-        <tfoot>
-            <tr>
-                <td>2022 - Todos os direitos reservados</td>
-            </tr>
-        </tfoot>
-    </tbody>
-    
-    </table>
-    -->
 <form>
-    <table class="Tabela">
+    <table class="tabela">
         <thead>
             
             <tr>
@@ -49,19 +19,25 @@
         </thead>
         <tbody>
             <tr> <!--LINHA NUMERO 1-->
-                <td><span class="TextBlock"> 1.1 </span> <input class="TextBox" > </td>
-                <td><span> 1.2 </span> </td>
+                <td class="primeiraColuna"><span class="textBlock" name="Matricula">Matricula: 1.1</span> <input class="textBox" name="txtMatricula"></td>
+                <td><input class="botoes" type="button" value="Exibir"><br>
+                    <input class="botoes" type="button" value="Atualizar"><br>
+                    <input class="botoes" type="button" value="Excluir"><br>
+                    <input class="botoes" type="button" value="Votlar">1.2</td>
 
             </tr>
             <tr> <!--LINHA NUMERO 2-->
-                <td> 2.1</td>
-                <td>Linha 2.2</td>
+                <td><span class="textBlock" name="Nome">Nome: 2.1</span><input class="textBox" name="txtNome"></td>
+                
 
             </tr>
             <tr> <!--LINHA NUMERO 3-->
-                <td>Linha 3</td>
-                <td>Linha 3.2</td>
-
+                <td><span class="textBlock" name="Email">E-mail: 3.1</span><input class="textBox" name="txtEmail"></td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                
             </tr>
         </tbody>
     
